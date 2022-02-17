@@ -1,0 +1,17 @@
+account_id = ''
+zone_id = ''
+workers_dev = true
+compatibility_date = '2022-02-17'
+
+name = 'magic-link-demo'
+type = 'javascript'
+
+[site]
+bucket = './build'
+entry-point = './workers-site'
+
+[build]
+command = 'yarn build'
+
+[build.upload]
+format = 'service-worker'

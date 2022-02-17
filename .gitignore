@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/static
+/workers-site
+/package
+.env
+.key.js
+.env.*
+!.env.example
