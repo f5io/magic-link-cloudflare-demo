@@ -24,7 +24,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@magic-sdk/admin": "https://github.com/f5io/magic-admin-js.git#feat/migrate-to-ethereum-cryptography",
+    "@magic-sdk/admin": "https://github.com/f5io/magic-admin-js.git#feature/environment-agnostic",
     "@tsndr/cloudflare-worker-jwt": "^1.1.5",
     "cookie": "^0.4.2",
     "magic-sdk": "^8.0.1"
